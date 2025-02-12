@@ -6,7 +6,7 @@ exports.getAddProduct = (req, res, next) => {
     path: '/admin/add-product',
     formsCSS: true,
     productCSS: true,
-    activeAddProduct: true
+    activeAddProduct: true,
   });
 };
 
@@ -24,6 +24,6 @@ exports.getProducts = (req, res, next) => {
     path: '/',
     hasProducts: products.length > 0,
     activeShop: true,
-    productCSS: true
+    productCSS: true,
   });
 };
