@@ -1,16 +1,1 @@
-[
-  {
-    "id": "12345",
-    "title": "Stories Of Your Life And others",
-    "imageUrl": "https://m.media-amazon.com/images/I/81DiAKe1P-S._SL1500_.jpg",
-    "description": "An award-winning collection from one of today's most lauded writers, Stories of Your Life and Others is a contemporary classic.",
-    "price": "1318"
-  },
-  {
-    "id": "0.4014725271792057",
-    "title": "Exhalation",
-    "imageUrl": "https://m.media-amazon.com/images/I/81sJzSu9NUL._SL1500_.jpg",
-    "description": "In Exhalation, Ted Chiang addresses the most fundamental of issues – What is the nature of the universe? What does it mean to be human?",
-    "price": "2133"
-  }
-]
+[{"id":"12345","title":"Stories Of Your Life And others","imageUrl":"https://m.media-amazon.com/images/I/81DiAKe1P-S._SL1500_.jpg","description":"An award-winning collection from one of today's most lauded writers, Stories of Your Life and Others is a contemporary classic.","price":"1318"},{"id":"0.4014725271792057","title":"Exhalation","imageUrl":"https://m.media-amazon.com/images/I/81sJzSu9NUL._SL1500_.jpg","description":"In Exhalation, Ted Chiang addresses the most fundamental of issues – What is the nature of the universe? What does it mean to be human?","price":"2133"}]
