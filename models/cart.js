@@ -18,7 +18,7 @@ module.exports = class Cart {
       // add new product / increase the quantity
       if (existingProduct) {
         updatedProduct = { ...existingProduct };
-        updatedProduct.qty += 1;
+        updatedProduct.qty = updatedProduct.qty + 1;
         cart.products = [...cart.products];
         cart.products[existingProductIndex] = updatedProduct;
       } else {
@@ -37,8 +37,8 @@ module.exports = class Cart {
       if (err) {
         return;
       }
-      const updatedCart = [...JSON.parse(fileContent)];
-      const product = updatedCart.product.find((prod) => prod.id === id);
+      const updatedCart = { ...JSON.parse(fileContent) };
+      const product = updatedCart.products.find((prod) => prod.id === id);
       const productQty = product.qty;
       updatedCart.products = updatedCart.products.filter(
         (prod) => prod.id !== id
